@@ -1,0 +1,46 @@
+@mixin ariel-16 ($paragraph-font){
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+	color:#000;
+	line-height: 1.6;
+}
+
+@mixin ariel-18 ($btn-font) {
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	color:#fff;
+}
+
+@mixin ariel-30 ($title-font) {
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	color:#000;
+}
+
+@mixin arial-50 ($banner-font) {
+    font-family: Arial, sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	text-decoration: none;
+	color:#fff;
+}
+
+
+@mixin flexCenter ($direction) {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@mixin btn-orange ($btn-color) {
+	width: 200px;
+	height: 50px;
+	border-radius: 5px;
+	letter-spacing: 2px;
+}
+
